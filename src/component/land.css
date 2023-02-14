@@ -1,0 +1,197 @@
+.blog-card .img 
+{
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.blog-card
+{
+    /* background-color: bisque; */
+    padding: 20px;
+    border-radius: 10px;
+}
+.blog-card .img img
+{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+.landing-page .container
+{
+/* display: inline-block !important; */
+border-radius: 0px!important;
+width: 100%!important;
+box-shadow: none;
+
+
+}
+.landing-page p{
+    color: #000;
+
+}
+.img img
+{
+    height: auto;
+    width:60px;
+}
+.landing-page ul a {
+    color: #fff!important;
+    text-decoration: none!important;
+    font-size: 16px;
+    font-weight: 600;
+    transition: .3s !important;
+}
+.landing-page ul a:hover
+{
+    color:aquamarine !important;
+}
+header
+{
+    /* background-color: #609EA2; */
+
+}
+.landing-page{
+    /* background-color: cadetblue; */
+    margin: auto;
+    width: 100%;
+}
+.card-img-top
+{
+    object-fit: cover;
+    height: 250px!important;
+    width: 100%!important;
+}
+.blog-title
+{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+}
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root ,.css-1sumxir-MuiFormLabel-root-MuiInputLabel-root,
+.css-1sumxir-MuiFormLabel-root-MuiInputLabel-root.Mui-focused , .css-o943dk-MuiFormLabel-root-MuiInputLabel-root.Mui-focused ,
+.css-1ff8729-MuiInputBase-root-MuiFilledInput-root
+
+{
+    color: #fff!important;
+}
+
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root ,
+.css-e4w4as-MuiFormLabel-root-MuiInputLabel-root 
+{
+    color: #fff!important;
+    border-color: #fff!important;
+}
+
+.css-1ff8729-MuiInputBase-root-MuiFilledInput-root 
+{
+    color: #fff!important;
+}
+.css-1ff8729-MuiInputBase-root-MuiFilledInput-root:before
+{
+    border-color: #fff!important;
+}
+.tagname
+{
+    color: #fff;
+    font-weight: 700;
+}
+.main-single-blog a
+{
+    color: #000!important;
+    font-weight: 500;
+    text-decoration: none;
+}
+/* .css-o943dk-MuiFormLabel-root-MuiInputLabel-root.Mui-focused */
+
+
+.preloader {
+    position: relative;
+    margin: 100px auto;
+    width: 200px;
+    height: 200px;
+  }
+  .load-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #fff;
+    border-top-color: #000;
+    border-bottom-color: #000;
+    animation: load1 1s linear infinite;
+  }
+  .load-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 25px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #fff;
+    border-top-color: #000;
+    border-bottom-color: #000;
+    animation: load1 1.5s linear infinite;
+  }
+
+
+  .load-3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #fff;
+    border-top-color: #000;
+    border-bottom-color: #000;
+    animation: load1 2s linear infinite;
+  }
+  .load-4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 70px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #fff;
+    border-top-color: #000;
+    border-bottom-color: #000;
+    background-color: #000;
+    animation: load1 2.5s linear infinite;
+  }
+  .load-5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 95px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    /* background-color: #fff; */
+  }
+  
+  @keyframes load1 {
+    50% {
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+ 
+  
